@@ -1,28 +1,26 @@
 # Dado
 
-Ejercicio sencillo: al pulsar el botón sale una cara de dado al azar (1–6).
+Ejercicio corto: un botón y seis caras. Cada clic saca un número del 1 al 6.
 
 ## Qué hace
 
-- Botón para lanzar el dado
-- Cambia la imagen según el número aleatorio (`img/dado1.png` … `dado6.png`)
-- Incluye resumen del ejercicio en `resume-devoir-de.html`
+- Botón “lanzar”
+- Cambia la imagen (`img/dado1.png` … `dado6.png`)
+- Resumen del enunciado en `resume-devoir-de.html`
 
 ## Cómo probarlo
 
-Abre `index.html` o la demo.
+Abre `index.html` o mira la demo.
 
 Demo: https://moussijoelle.github.io/Dado/
 
 ## Cómo lo construí
 
-- HTML + JavaScript + Tailwind (browser CDN)
-- Lógica en `app.js` (`Math.random` y cambio de `src`)
-- Imágenes del dado en `img/`
+Un `Math.random` en `app.js` y cambio del `src` de la imagen. Tailwind para el layout básico.
 
 ## Cómo verificarlo
 
-Sin tests. Pulso varias veces el botón y miro que las caras cambien.
+Lanzo el dado unas cuantas veces y compruebo que las caras vayan cambiando.
 
 ---
 
